@@ -1,6 +1,10 @@
 package nl.ocs.java.ev3;
 
-public class SeekBeaconResult {
+import java.io.Serializable;
+
+public class SeekBeaconResult implements Serializable {
+
+	private static final long serialVersionUID = -3003351746797560712L;
 
 	private Beacon[] beacons;
 

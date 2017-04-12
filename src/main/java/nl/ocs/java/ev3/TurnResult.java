@@ -1,7 +1,10 @@
 package nl.ocs.java.ev3;
 
-public class TurnResult {
+import java.io.Serializable;
 
+public class TurnResult implements Serializable {
+
+	private static final long serialVersionUID = 2334405753747842391L;
 	// number of degrees turned
 	private int degree;
 

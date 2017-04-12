@@ -1,6 +1,10 @@
 package nl.ocs.java.ev3;
 
-public class Beacon {
+import java.io.Serializable;
+
+public class Beacon implements Serializable {
+
+	private static final long serialVersionUID = 3813843936067251009L;
 
 	private int id;
 	private int angle;
